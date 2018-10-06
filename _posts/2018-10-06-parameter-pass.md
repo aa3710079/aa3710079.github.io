@@ -4,6 +4,7 @@ title: Call By Value, Call By Reference and Call By Addres
 ---
 Call By Value, Call By Reference跟Call By Address 這三個傳遞參數的方法，每次使用時，都要google一下，然後查完用完，覺得自己又成長了好棒棒這樣，等到下一次要用又忘記，我都已經碩一了耶，再這樣下去也不是辦法，只好花個時間記錄一下
 ## Call By Value
+
 ```C++
 #include <iostream>
 using namespace std;
@@ -25,6 +26,7 @@ int sum(int x, int y)
     return x + y;
 }
 ```
+
 記憶體位址與內容長得像下面這樣:
 
 |            |     a    |     b    |..|  x   | y    |
