@@ -26,7 +26,13 @@ int sum(int x, int y)
     return x + y;
 }
 ```
-
+```scss
+$sidebar-bg-color: #202020 !default;
+$sidebar-fg-color: white !default;
+$sidebar-sticky: true !default;
+$layout-reverse: false !default;
+$link-color: #268bd2 !default;
+```
 記憶體位址與內容長得像下面這樣:
 
 |            |     a    |     b    |..|  x   | y    |
