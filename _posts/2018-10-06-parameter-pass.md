@@ -37,7 +37,8 @@ int sum(int x, int y)
 基本上也就是把a的值複製給x、b的值複製給y，沒什麼特別的
 
 ## Call By Reference
-```C++
+
+```c++
 #include <iostream>
 using namespace std;
 
@@ -64,6 +65,7 @@ void Swap(int &x, int &y)
     y = temp;
 }
 ```
+
 在呼叫Swap以前，記憶體位址與內容長得像這樣:
 
 |            |     a    |     b    |
@@ -89,7 +91,8 @@ Swap完後，記憶體長這樣:
 對x跟y做任何的運算，結果會完全套用在a跟b身上，而且整個程式在run的過程中，不會有新的變數產生，重頭到尾就只有a跟b而已
 
 ## Call By Address
-```C++
+
+```c++
 #include <iostream>
 using namespace std;
 
